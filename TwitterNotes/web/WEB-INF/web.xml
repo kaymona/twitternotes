@@ -4,9 +4,33 @@
         <servlet-name>Twitter</servlet-name>
         <servlet-class>twitter.Twitter</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Profile</servlet-name>
+        <servlet-class>twitter.Profile</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>twitter.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Getimage</servlet-name>
+        <servlet-class>twitter.Getimage</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Twitter</servlet-name>
         <url-pattern>/Twitter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Profile</servlet-name>
+        <url-pattern>/Profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Getimage</servlet-name>
+        <url-pattern>/Getimage</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
